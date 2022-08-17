@@ -1,0 +1,30 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #faae2b;
+    border-radius: 12px;
+    padding: 2rem;
+  }
+  .card {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(240, 248, 255, 0.241);
+  }
+  img {
+    width: 150px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  a {
+    color: #0b0089;
+    text-decoration: none;
+  }
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

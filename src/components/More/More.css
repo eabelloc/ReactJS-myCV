@@ -1,0 +1,47 @@
+.more_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #faae2b;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.more_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+  }
+  .card {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(240, 248, 255, 0.241);
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    color: #00473e;
+  }
+
+
+ /* .more_section1 {
+    background-color: #faae2b;
+  }
+  como hago para pintar a cada
+  .more_section3 {
+    background-color: #faae2b;
+  }*/
