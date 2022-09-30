@@ -11,7 +11,7 @@ export const AboutMe = ({ hero }) => {
         {aboutMe.map((item) => {
           return (
             <ul key={JSON.stringify(item)}>
-              <li className="info">👨‍💻{item.info}</li>
+              <li className="info">👨‍💻 {item.info}</li>
             </ul>
           );
         })}

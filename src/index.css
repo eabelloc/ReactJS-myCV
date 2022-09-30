@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200;300;400;700&display=swap');
+
 body {
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-background-color: #f2f7f5;
-color: #00473e;
+  font-family: 'Anek Telugu', sans-serif;
+  background-color: #f2f7f5;
+  color: #00473e;
 }
 
 li {

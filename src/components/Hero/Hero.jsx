@@ -9,13 +9,13 @@ const Hero = ({ hero }) => {
         <h2>
           {hero.name} {hero.surname}
         </h2>
-        <p>🗺️{hero.city}</p>
-        <p>🗓️{hero.birthDate}</p>
+        <p>🗺️ {hero.city}</p>
+        <p>🗓️ {hero.birthDate}</p>
         <p>
           📧
           <a href={"mailto:" + hero.email}>eabelloc.dev@gmail.com</a>
         </p>
-        <p>📱{hero.phone}</p>
+        <p>📱 {hero.phone}</p>
         <p>
           💾
           <a href={hero.gitHub} target="_blank">

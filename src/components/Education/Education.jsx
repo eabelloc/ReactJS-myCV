@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const Education = ({education}) => {
+const Education = ({ education }) => {
   return (
     <div>
-      <div className='education card'>
+      <div className="education card">
         {education.map((item) => {
           return (
             <ul key={JSON.stringify(item)}>
-              <li className='name'>📕{item.name}</li>
+              <li className="name">📕 {item.name}</li>
               <li>{item.where}</li>
               <li>{item.date}</li>
             </ul>
@@ -18,4 +18,4 @@ const Education = ({education}) => {
   );
 };
 
-export default Education
+export default Education;
