@@ -5,7 +5,7 @@ export const CV = {
       city: "Lübeck, Germany",
       email: "eabelloc.dev@gmail.com",
       birthDate: "16.10.1997",
-      phone: "(+12) 767333841",
+      phone: "+49 176 63201585",
       image: "https://lh3.googleusercontent.com/a-/AFdZucoaJ3S6q74UlCEpJsW-aGnvGANKmdn2-bQrjstG=s288-p-rw-no",
       gitHub: "https://github.com/eabelloc",
       aboutMe: [
@@ -13,13 +13,13 @@ export const CV = {
           info: "I am a composer, turned programmer.",
         },
         {
-          info: "Expereience as a composer in a professional level.",
+          info: "I have expereience as a composer in a professional level.",
         },
         {
           info: "I am a very big fan of Balinese gamelan music (I used to play in a gamelan orchestra parallel to my composition studies), contemporary classical music, and electronic music.",
         },
         {
-          info: "I am currently doing a Bootcamp about Web/App development in Neoland.",
+          info: "I did a Bootcamp about Web Development in Neoland from the 1st of July to the 23rd of September. I graduated as a Junior Full-Stack Web Developer.",
         },
       ],
     },
@@ -27,12 +27,12 @@ export const CV = {
     education: [
       {
         name: "Bootcamp in Web Development Full Stack",
-        date: "2022",
+        date: "July 2022 - September 2022",
         where: "Neoland",
       },
       {
         name: "Bachelor of Music: Composition",
-        date: "2016-2022",
+        date: "October 2016 - March 2022",
         where: "Musikhochschule Lübeck",
       },
       {
@@ -43,6 +43,27 @@ export const CV = {
     ],
 
     experience: [
+      {
+        name: "Full Stack Web Developer",
+        date: "1st of September 2022 - 23rd of September 2022",
+        where: "Freelancer (Lübeck)",
+        description:
+          "Final Project for the Bootcamp of Full-Stack Web Development: During the last three weeks of my Bootcamp at NEOLAND (Madrid) from the 1st of September to the 22nd of September, I did my final project. In collaboration with my classmate Daniel, we developed both the back end and the front end of a social media app. For our database we used MongoDB and we used NodeJS to make a REST API with user authentication. For the Front End, we used ReactJS, and divided it in two perspectives, one from the user and one for the viewer. We had to composize even the smaller parts of the website, like buttons, inputs, searchbars, profile and project views, etc. Team work and stress management were crucial for the development of this app in such a short period. I learned a lot about time management, organization, problem solving, and conflict management during the making of this project, and gained a very good friend, which I continue to collaborate with even to this day. I also learned to use the Styled Components library, which was very useful in the making of many components. - 3 months experience as a developer.",
+      },
+      {
+        name: "Full Stack Web Developer",
+        date: "August 2022 - August 2022",
+        where: "Freelancer (Lübeck)",
+        description:
+          "Studio Ghibli Project: In this project I obtain and print specific information Studio Ghibli API, specifically, all the movies, and all the characters, and then I make a Front End app, that shows in one page the movies, and in another page, the characters. For this project i used ReactJS. - 2 months experience as a developer.",
+      },
+      {
+        name: "Full Stack Web Developer",
+        date: "July 2022 - July 2022",
+        where: "Freelancer (Lübeck)",
+        description:
+          "Spotiland API Project: For this project I collaborated with 2 of my classmates, so team work was key during the realization of this project. We made an API a bit inspired by Spotify, and it consisted on 3 collections, one for songs, one for playlists, and one for users with authentication.",
+      },
       {
         name: "Waiter assistant and Helper",
         date: "November 2021 - April 2022",
@@ -60,38 +81,51 @@ export const CV = {
     ],
 
     languages: [
-    {
+      {
         language: "Spanish",
         wrlevel: "Native",
         splevel: "Native",
-    },{
+      },{
         language: "English",
         wrlevel: "C1 (IELTS Academic)",
         splevel: "C1 (IELTS Academic)",
-    },
-    {
+      },
+      {
         language: "German",
         wrlevel: "B2 (Telc)",
         splevel: "B2 (Telc)",
-    },
-    {
+      },
+      {
         language: "French",
         wrlevel: "B1",
         splevel: "B1",
-    }
-],
+      }
+    ],
 
     habilities: [
       "ReactJS",
-      "GitHub Actions",
-      "Insomnia",
-      "Sass",
-      "Styled Components",
-      "Git",
-      "NPM",
       "MongoDB",
       "NodeJS",
+      "Styled Components",
+      "Sass",
+      "GitHub Actions",
+      "Insomnia",
+      "Git",
+      "NPM",
     ],
+
+    softSkills: [
+      "Teamwork",
+      "Flexibility",
+      "Creativity",
+      "Intergrity",
+      "Interpersonal skills",
+      "Positive attitude",
+      "Attitude towards work",
+      "Problem resolution",
+      "Organized",
+    ],
+
     volunteer: [
       {
         name: "Composer for the Competition 'Tocar y Luchar' from Venezuela",
