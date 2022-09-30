@@ -69,7 +69,7 @@ export const CV = {
         date: "November 2021 - April 2022",
         where: "Miera Restaurant",
         description:
-          "Assistance with waiter activities. Activities as a kitchen helper. Carrying out inventory and ordering of goods in the integrated delicatessen",
+          "Assistance with waiter activities. Activities as a kitchen helper. Carrying out inventory and ordering of goods in the integrated delicatessen.",
       },
       {
         name: "Second Oboe with A Level Scholarship",
