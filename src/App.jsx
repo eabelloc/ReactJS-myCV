@@ -29,20 +29,27 @@ const App = () => {
       <AboutMe hero={hero} />
 
       <div className="buttons_container">
-        <button
-          className="button-55"
-          role="button"
-          onClick={() => setShowEducation(true)}
-        >
-          <strong>Education</strong>
-        </button>
-        <button
-          className="button-55"
-          role="button"
-          onClick={() => setShowEducation(false)}
-        >
-          <strong>Experience</strong>
-        </button>
+        <div className="button">
+          <button
+            className="button-57"
+            role="button"
+            onClick={() => setShowEducation(true)}
+          >
+            <span class="text">Education</span>
+            <span>Press Here</span>
+          </button>
+        </div>
+
+        <div className="button">
+          <button
+            className="button-57"
+            role="button"
+            onClick={() => setShowEducation(false)}
+          >
+            <span class="text">Experience</span>
+            <span>Press Here</span>
+          </button>
+        </div>
       </div>
       {showEducation ? (
         <Education education={education} />
